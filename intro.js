@@ -1,7 +1,9 @@
-const name = "Victoria";
-const age = "19";
-const favouriteLanguage = "Javascript";
+const user = {
+    name:"Victoria",
+    age: 19,
+    favouriteLanguage: "Javascript"
+};
 
-console.log("Name: "+ name);
-console.log("Age: ", + age);
-console.log("Favourite Programming Language: " + favouriteLanguage);
+console.log("Name: "+ user.name);
+console.log("Age: ", + user.age);
+console.log("Favourite Programming Language: " + user.favouriteLanguage);
